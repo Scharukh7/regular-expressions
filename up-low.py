@@ -7,7 +7,7 @@ import re
 # [a-zA-Z\d]{8,20} : Match any combination of uppercase and lowercase letters and digits between 8 and 20 times
 # $                : End of string
 ''''''
-regex = r'^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z\d]{8,20}$'
+regex = r'^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z\d]{5,50}$'
 
 # String to test against the regular expression
 word = 'reGex1sFascinat1nG'
